@@ -1,3 +1,4 @@
+:octocat:
 # webSocket_Factory
 A Web Socket Factory for AngularJS
 
