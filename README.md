@@ -12,3 +12,8 @@ Usage
 ```javascript
 angular.module("myAwesomeApp", ['unJS'])
 ```
+3- Call it, like:
+```javascript
+webSocket_Factory.sendMessage('ws://echo.websocket.org', {"message": "Hey, socket!"});
+```
+You'll receive the response as a console.log(). For this example you'll receive back the message you sent inside the data property
